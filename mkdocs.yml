@@ -1,0 +1,7 @@
+site_name: Homestead
+theme:
+  name: material
+
+extra:
+  version:
+    provider: mike
