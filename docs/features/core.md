@@ -1,6 +1,6 @@
 # Homestead Core
 
-# Introduction
+## Introduction
 
 Homestead core is a collection of packages and modules that are used to build an app with Homestead. 
 

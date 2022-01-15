@@ -11,3 +11,11 @@ nav:
 extra:
   version:
     provider: mike
+
+extra_javascript:
+- js/termynal.js
+- js/custom.js
+
+extra_css:
+- css/termynal.css
+- css/custom.css
