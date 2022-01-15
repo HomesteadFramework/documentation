@@ -2,6 +2,12 @@ site_name: Homestead
 theme:
   name: material
 
+nav:
+  - Home: 'index.md'
+  - Features:
+    - 'Homestead Core': 'features/core.md'
+    - 'Homestead Craft': 'features/craft.md'
+
 extra:
   version:
     provider: mike
