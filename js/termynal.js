@@ -99,7 +99,7 @@ class Termynal {
             line.removeAttribute(`${this.pfx}-cursor`);
 
         }
-        this.addRestart()
+        // this.addRestart()
     }
 
     /**
