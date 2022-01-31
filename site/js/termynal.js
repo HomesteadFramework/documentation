@@ -97,7 +97,9 @@ class Termynal {
             }
 
             line.removeAttribute(`${this.pfx}-cursor`);
+
         }
+        this.addRestart()
     }
 
     /**
@@ -165,6 +167,23 @@ class Termynal {
         });
     }
 
+    generateRestart() {
+        const restart = document.createElement('a')
+        restart.onclick = (e) => {
+            e.preventDefault()
+            this.container.innerHTML = ''
+            this.init()
+        }
+        restart.href = '#'
+        restart.setAttribute('data-terminal-control', '')
+        restart.innerHTML = "restart ↻"
+        return restart
+    }
+
+    addRestart() {
+        const restart = this.generateRestart()
+        this.container.appendChild(restart)
+    }
     /**
      * Helper function for generating attributes string.
      *
@@ -195,3 +214,4 @@ if (document.currentScript.hasAttribute('data-termynal-container')) {
     containers.split('|')
         .forEach(container => new Termynal(container))
 }
+
