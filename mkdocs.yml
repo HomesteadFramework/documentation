@@ -7,7 +7,8 @@ nav:
   - Features:
     - 'Homestead Core': 'features/core.md'
     - 'Homestead Craft': 'features/craft.md'
-  - Tutorial - User guide
+  - Tutorial - User Guide:
+    - 'Getting Started': 'tutorial/getting-started.md'
 
 extra:
   version:

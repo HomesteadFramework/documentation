@@ -12,7 +12,6 @@ Using the commands in Craft will ensure you are creating items that conform to t
     <span data-ty="input">app_name[]: input app name here</span>
     <span data-ty="input">app_domain[localhost]: setup app domain - localhost for local dev</span>
     <span data-ty="input">app_port[8000]: input app port here</span>
-
 </div>
 
 
